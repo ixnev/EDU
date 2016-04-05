@@ -1,0 +1,63 @@
+/* 登录 */
+.m-login{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    /* IE8半透明遮罩 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.m-login .g-login{
+    position: absolute;
+    width: 388px;
+    height: 290px;
+    top: 50%;
+    left: 50%;
+    margin-top: -145px;
+    margin-left: -194px;
+    background-color: #fff;
+}
+.m-login h3{
+    padding: 30px 0 20px 40px;
+    font: 18px/18px "Microsoft Yahei";
+    color: #444;
+}
+.m-login input{
+    display: block;
+    margin: 0 0 15px 40px;
+    height: 43px;
+    width: 280px;
+    padding-left: 10px;
+    border: 1px solid #dfdfdf;
+    background-color: #fafafa;
+    font: 16px/43px "Microsoft Yahei";
+}
+.m-login button{
+    width: 295px;
+    height: 48px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 14px;
+    font: 16px "Microsoft Yahei";
+    color: #fff;
+    background: url(../image/icon.png) 0 -226px no-repeat;
+}
+.m-login i{
+    display: inline-block;
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    top: 10px;
+    right: 8px;
+    background: url(../image/icon.png) 0 -15px no-repeat;
+}
+.m-login i:hover{
+    cursor: pointer;
+}
+.m-login .msg{
+    margin-left: 40px;
+    color: #f00;
+}
